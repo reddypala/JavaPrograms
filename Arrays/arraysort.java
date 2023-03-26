@@ -8,15 +8,15 @@ public class arraysort {
         // sorting logic
         for (int i = 0; i < arr.length; i++) {
             for (int j = i + 1; j < arr.length; j++) {
-                int tmp = 0;
-                if (arr[i] > arr[j]) {                  // for descending order put '<' sign
-                    tmp = arr[i];
+                int temp;
+                if (arr[i] > arr[j]) { // for descending order put '<' sign
+                    temp = arr[i];
                     arr[i] = arr[j];
-                    arr[j] = tmp;
+                    arr[j] = temp;
                 }
             }
             // prints the sorted element of the array
-            System.out.println(arr[i]);
+            System.out.print(arr[i]+"\t");
         }
     }
 }

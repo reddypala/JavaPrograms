@@ -8,12 +8,11 @@ public class multiplicationtable {
         System.out.println("Enter the value of n:");
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
-        for(i = 0;i<=10;i++){
-            
-            System.out.printf("%d*%d =%d\n",n,i,n*i);
+        for (i = 0; i <= 10; i++) {
+
+            System.out.printf("%d*%d =%d\n", n, i, n * i);
         }
         sc.close();
     }
-    
-}
 
+}
