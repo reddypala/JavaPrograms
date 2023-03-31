@@ -13,9 +13,9 @@ public class jaggedarray {
 
         // reversing the jagged array
 
-        for(int i = 0; i<arr.length;i++){
-            for(int j = arr[i].length;j>0;j--){
-                System.out.print(arr[i][j-1]+" ");
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = arr[i].length; j > 0; j--) {
+                System.out.print(arr[i][j - 1] + " ");
             }
             System.out.println();
         }

@@ -38,6 +38,8 @@ public class arraysDemo {
             }
             System.out.println();
         }
+
+        
     }
 
 }

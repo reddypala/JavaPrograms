@@ -10,7 +10,7 @@ public class removeDuplicates {
             //1. Split the sentence into an array of words using the split method of the String class. 
             //You can split the sentence at spaces, 
             //commas, periods, or any other punctuation marks that you want to consider as word separators.
-            String[] words = sentence.split("\\s+");
+            String[] words = sentence.split("\\s");
 
             //2. Create a HashSet to store the unique words from the array. 
             //The HashSet automatically removes duplicates and maintains the order of insertion.
@@ -20,7 +20,7 @@ public class removeDuplicates {
             for (String word : words) {
                 uniqueWords.add(word);
             }
-            System.out.print("Unique words: ");
+            System.out.println("Unique words: ");
             // 4.Print the unique words in the HashSet using a for-each loop or any other method you prefer.
             for (String word : uniqueWords) {
                 System.out.print(word + " ");

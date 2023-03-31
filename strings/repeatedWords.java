@@ -5,8 +5,8 @@ import java.util.Map;
 public class repeatedWords {
 
     public static void main(String[] args) {
-        String sentence = "The quick brown fox jumps over the lazy dog and the quick brown cat";
-        String[] words = sentence.split("\\s+");
+        String sentence = "The quick brown fox jumps over the lazy dog and the quick brown cat hello  hello";
+        String[] words = sentence.split("\\s");
         Map<String, Integer> wordCounts = new HashMap<>();
 
         // count the frequency of each word

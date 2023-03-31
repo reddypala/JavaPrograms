@@ -33,8 +33,23 @@ public class removeduplicates {
 		// copying temporary array to original array
 		for (int i = 0; i < j; i++) {
 			arr[i] = temp[i];
-		}
+		} 
 		return j;
 
 	}
 }
+
+//Explanation:
+// The program defines a method removeDuplicateElements that takes an array of integers and its 
+// length as arguments, and returns an integer indicating the new length of the array 
+// after removing duplicates. The method uses a temporary array temp to store the
+// non-duplicate elements of the input array arr, and it keeps track of
+// the index j of the last element in temp. It iterates over the input array arr, 
+// comparing each element with the next one. If they are not equal, it copies the current element 
+// to temp, increments j, and moves to the next element in arr. The last element of arr is copied to
+// temp, and the method copies the elements of temp back to arr. Finally, the method returns 
+// the new length of the array.
+
+// The program also has a main method that initializes an array 
+// arr with some duplicate elements, prints the original array, 
+// calls the removeDuplicateElements method, and prints the resulting array.

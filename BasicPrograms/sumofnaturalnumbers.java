@@ -7,11 +7,11 @@ public class sumofnaturalnumbers {
         return result ;
     }
     public static void main(String[] args) {
-        // int num = 50, sum = 0;
-        // for (int i = 1; i <= num; i++) {
-        //     sum += i;
-        // }
-        // System.out.println("sum of the natural numbers:" + sum);
+        int num = 50, sum = 0;
+        for (int i = 1; i <= num; i++) {
+            sum += i;
+        }
+        System.out.println("sum of the natural numbers:" + sum);
 
         // int j = 1;
         // while (j <= num) {
